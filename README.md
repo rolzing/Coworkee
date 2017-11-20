@@ -1,5 +1,5 @@
-# Ext JS Employee Directory
-Ext JS Sample Application - Employee Directory (Coworkee)
+# Proyecto ITO | Sencha
+Sencha employee example - Employee Directory (Coworkee)
 
 ## Getting started
 ### Prerequisite
