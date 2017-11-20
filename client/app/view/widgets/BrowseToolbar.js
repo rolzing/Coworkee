@@ -14,7 +14,7 @@ Ext.define('App.view.widgets.BrowseToolbar', {
         search: {
             xtype: 'searchfield',
             reference: 'search',
-            placeholder: 'Search',
+            placeholder: 'Buscar',
             userCls: 'expandable',
             bind: '{filters.search}',
             weight: 0

@@ -14,13 +14,13 @@ Ext.define('App.view.home.HomeEvents', {
             defaultUI: 'segmented flat',
             bind: '{range}',
             items: [{
-                text: 'Upcoming',
+                text: 'Proximo',
                 value: 'upcoming'
             }, {
-                text: 'Recent',
+                text: 'Reciente',
                 value: 'recent'
             }, {
-                text: 'Past',
+                text: 'Pasado',
                 value: 'past'
             }]
         }]
@@ -42,9 +42,9 @@ Ext.define('App.view.home.HomeEvents', {
                 '<div class="date">{date:date("M j")}</div>',
                 '<div class="title">',
                     '<tpl switch="type">',
-                    '<tpl case="birthday">Birthday',
-                    '<tpl case="anniversary">Anniversary',
-                    '<tpl case="started">Arrival',
+                    '<tpl case="birthday">Cumpleaños',
+                    '<tpl case="anniversary">Aniversario',
+                    '<tpl case="started">Viaje',
                     '<tpl case="ended">Departure',
                     '</tpl>',
                 '</div>',

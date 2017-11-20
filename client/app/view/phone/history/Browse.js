@@ -10,7 +10,7 @@ Ext.define('App.view.phone.history.Browse', {
     items: [{
         xtype: 'list',
         bind: '{history}',
-        emptyText: 'No activity was found',
+        emptyText: 'Ninguna activida fue encontrada',
         striped: true,
         grouped: true,
         ui: 'listing',
@@ -28,7 +28,7 @@ Ext.define('App.view.phone.history.Browse', {
                 iconCls: 'x-fa fa-trash',
                 commit: 'onDeleteAction',
                 undoable: true,
-                text: 'Delete',
+                text: 'Borrar',
                 ui: 'remove'
             }]
         }],

@@ -15,7 +15,7 @@ Ext.define('App.view.person.Wizard', {
     },
 
     bind: {
-        title: '{record.phantom? "Add" : "Edit"} Employee'
+        title: '{record.phantom? "Add" : "Edit"} Trabajador'
     },
 
     cls: 'person-create',
@@ -26,7 +26,7 @@ Ext.define('App.view.person.Wizard', {
         items: [{
             xtype: 'textfield',
             reference: 'firstname',
-            label: 'First Name',
+            label: 'Nombre',
             required: true,
             bind: '{record.firstname}',
             listeners: {
@@ -35,7 +35,7 @@ Ext.define('App.view.person.Wizard', {
         }, {
             xtype: 'textfield',
             reference: 'lastname',
-            label: 'Last Name',
+            label: 'Apellido',
             required: true,
             bind: '{record.lastname}',
             listeners: {
@@ -80,7 +80,7 @@ Ext.define('App.view.person.Wizard', {
         items: [{
             xtype: 'datepickerfield',
             reference: 'birthday',
-            label: 'Birthday',
+            label: 'Cumpleaños',
             required: true,
             bind: '{record.birthday}'
         }, {
@@ -91,7 +91,7 @@ Ext.define('App.view.person.Wizard', {
             bind: '{record.email}'
         }, {
             xtype: 'textfield',
-            reference: 'phone',
+            reference: 'Telefono',
             label: 'Phone',
             required: true,
             bind: '{record.phone}'
@@ -112,23 +112,23 @@ Ext.define('App.view.person.Wizard', {
         items: [{
             xtype: 'textfield',
             reference: 'title',
-            label: 'Job Title',
+            label: 'Nombre del trabajo: ',
             required: true,
             bind: '{record.title}'
         }, {
             xtype: 'datepickerfield',
             reference: 'started',
-            label: 'Entry date',
+            label: 'Fecha de entrada',
             required: true,
             bind: '{record.started}'
         }, {
             xtype: 'datepickerfield',
             reference: 'ended',
-            label: 'Exit date',
+            label: 'Fecha de salida',
             bind: '{record.ended}'
         }, {
             xtype: 'combobox',
-            label: 'Office',
+            label: 'Gymbasio',
             displayField: 'label',
             valueField: 'value',
             queryMode: 'local',
@@ -140,7 +140,7 @@ Ext.define('App.view.person.Wizard', {
             }
         }, {
             xtype: 'combobox',
-            label: 'Organization',
+            label: 'Gymnasio',
             displayField: 'label',
             valueField: 'value',
             queryMode: 'local',

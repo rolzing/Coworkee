@@ -9,7 +9,7 @@ Ext.define('App.view.widgets.HistoryPanel', {
     cls: 'historypanel',
     defaultBindProperty: 'store',
     referenceHolder: true,
-    title: 'Recent Activity',
+    title: 'Actividad Reciente',
 
     header: {
         items: {

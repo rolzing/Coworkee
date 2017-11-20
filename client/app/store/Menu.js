@@ -10,22 +10,22 @@ Ext.define('App.store.Menu', {
     }, {
         id: 'people',
         xtype: 'personbrowse',
-        text: 'Employees',
+        text: 'Clientes',
         icon: 'users'
     }, {
         id: 'organizations',
         xtype: 'organizationbrowse',
-        text: 'Organizations',
+        text: 'Gymnasios',
         icon: 'sitemap'
     }, {
         id: 'offices',
         xtype: 'officebrowse',
-        text: 'Offices',
+        text: 'Gymnasios',
         icon: 'globe'
     }, {
         id: 'history',
         xtype: 'historybrowse',
-        text: 'Activity',
+        text: 'Monitorear Actividad',
         icon: 'history'
     }]
 });

@@ -11,7 +11,7 @@ Ext.define('App.view.person.ShowOrg', {
                 '{record.organization.name}'+
             '</a>'+
             '<div class="caption">'+
-                'Managed by '+
+                'Entrenador:  '+
                 '<a href="#{record.organization.manager.url}">'+
                     '{record.organization.manager.fullname}'+
                 '</a>'+
@@ -27,7 +27,7 @@ Ext.define('App.view.person.ShowOrg', {
             weigth: 10,
             bind: {
                 text: '{record.organization.headcount}',
-                tooltip: 'Show employees of the <b>{record.organization.name}</b> organization.'
+                tooltip: 'Mostrar trabajdores de <b>{record.organization.name}</b> Gymnasio.'
             }
         }]
     },
@@ -39,7 +39,7 @@ Ext.define('App.view.person.ShowOrg', {
         inline: true,
         itemTpl: '<div class="thumbnail" style="background-image:url({picture})"></div>',
         bind: {
-            emptyText: '{record.fullname} is the only employee in this organization',
+            emptyText: '{record.fullname} Es el unico trabajador en el gymnasio',
             store: '{coworkers}'
         },
         listeners: {
