@@ -16,30 +16,30 @@ Ext.define('App.view.office.Wizard', {
         items: [{
             xtype: 'textfield',
             reference: 'name',
-            label: 'Name',
+            label: 'Nombre',
             required: true,
             bind: '{record.name}'
         }, {
             xtype: 'textfield',
             reference: 'address',
-            label: 'Address',
+            label: 'Direccion',
             required: true,
             bind: '{record.address}'
         }, {
             xtype: 'textfield',
             reference: 'city',
-            label: 'City',
+            label: 'Ciudad',
             required: true,
             bind: '{record.city}'
         }, {
             xtype: 'textfield',
             reference: 'postcode',
-            label: 'ZIP/Postal',
+            label: 'Codigo Postal',
             bind: '{record.postcode}'
         }, {
             xtype: 'textfield',
             reference: 'country',
-            label: 'Country',
+            label: 'Pais',
             required: true,
             bind: '{record.country}'
         }, {
