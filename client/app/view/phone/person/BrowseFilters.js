@@ -6,7 +6,7 @@ Ext.define('App.view.phone.person.BrowseFilters', {
 
     items: [{
         xtype: 'searchfield',
-        placeholder: 'Search'
+        placeholder: 'Buscar'
     }]
 });
 

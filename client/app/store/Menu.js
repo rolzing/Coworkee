@@ -10,7 +10,7 @@ Ext.define('App.store.Menu', {
     }, {
         id: 'people',
         xtype: 'personbrowse',
-        text: 'Clientes',
+        text: 'Trabajadores',
         icon: 'users'
     }, {
         id: 'organizations',

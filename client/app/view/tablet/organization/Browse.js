@@ -37,6 +37,7 @@ Ext.define('App.view.tablet.organization.Browse', {
             tpl: '<a class="item-title" href="#{url}">{name}</a>'
         }, {
             text: 'Entrenador',
+
             dataIndex: 'manager.lastname',
             flex: 2,
             cell: {
@@ -54,7 +55,8 @@ Ext.define('App.view.tablet.organization.Browse', {
                 '</tpl>'
             ]
         }, {
-            text: 'Recuento',
+
+            text: '# entrenadores',
             dataIndex: 'headcount',
             flex: 1,
             cell: {
