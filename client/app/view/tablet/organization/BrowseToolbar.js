@@ -7,7 +7,7 @@ Ext.define('App.view.tablet.organization.BrowseToolbar', {
             xtype: 'combobox',
             valueField: 'value',
             displayField: 'label',
-            placeholder: 'All Managers',
+            placeholder: 'Todos los entrenadores',
             queryMode: 'local',
             weight: 10,
             bind: {
@@ -19,7 +19,7 @@ Ext.define('App.view.tablet.organization.BrowseToolbar', {
             xtype: 'button',
             iconCls: 'x-fa fa-plus',
             handler: 'onCreate',
-            text: 'Create',
+            text: 'Crear',
             weight: 50
         }
     }
