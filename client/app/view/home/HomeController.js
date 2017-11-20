@@ -27,10 +27,10 @@ Ext.define('App.view.home.HomeController', {
         vm.set({
             time: now,
             greeting:
-                Ext.Date.isWeekend(now)? "Enjoy your weekend" :
-                hours < 13? "Good morning" :
-                hours < 17? "Good afternoon" :
-                "Good evening"
+                Ext.Date.isWeekend(now)? "Disfruta tu dia!" :
+                hours < 13? "Buenos dias" :
+                hours < 17? "Buenas tardes" :
+                "Buenas noches"
         });
 
         Ext.defer(function() {
