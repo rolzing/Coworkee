@@ -4,7 +4,7 @@ Ext.define('App.view.office.ShowPeople', {
 
     cls: 'office-people',
     iconCls: 'x-fa fa-users',
-    title: 'Employees',
+    title: 'Trabajadores',
 
     header: {
         items: [{

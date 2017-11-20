@@ -12,10 +12,6 @@ Ext.define('App.view.home.Home', {
     },
 
     eventedConfig: {
-        /**
-         * Make the config trigger an event on change to allow the controller to monitor it.
-         * https://www.sencha.com/blog/using-sencha-ext-config/
-         */
         route: null
     },
 
