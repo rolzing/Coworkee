@@ -3,3 +3,4 @@
 /server/*.db
 /server/node_modules
 *.log
+/client/workspace.json
