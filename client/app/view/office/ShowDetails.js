@@ -8,7 +8,7 @@ Ext.define('App.view.office.ShowDetails', {
     tpl: [
         '<div class="block-section">',
             '<div class="item">',
-                '<div class="label">Address</div>',
+                '<div class="label">Direccion</div>',
                 '<div class="value">',
                     '<div>{address}</div>',
                     '<tpl if="region || postcode">',

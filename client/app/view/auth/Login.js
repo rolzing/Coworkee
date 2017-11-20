@@ -16,8 +16,8 @@ Ext.define('App.view.auth.Login', {
         cls: 'auth-header',
         html:
             '<span class="logo x-fa fa-circle-o-notch"></span>'+
-            '<div class="title">Coworkee</div>'+
-            '<div class="caption">Employee directory</div>'
+            '<div class="title">Gimnasio</div>'+
+            '<div class="caption">Directorio de usuarios</div>'
     }, {
         xtype: 'formpanel',
         reference: 'form',
@@ -45,10 +45,6 @@ Ext.define('App.view.auth.Login', {
     }, {
         cls: 'auth-footer',
         html:
-            '<div>Ext JS example</div>'+
-            '<a href="http://www.sencha.com" target="_blank">'+
-                '<span class="logo ext ext-sencha"></span>'+
-                '<span class="label">Sencha</span>'+
-            '</a>'
+            '<div>ITO</div>'
     }]
 });
