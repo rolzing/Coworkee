@@ -128,7 +128,7 @@ Ext.define('App.view.person.Wizard', {
             bind: '{record.ended}'
         }, {
             xtype: 'combobox',
-            label: 'Gymbasio',
+            label: 'Gymnasio',
             displayField: 'label',
             valueField: 'value',
             queryMode: 'local',

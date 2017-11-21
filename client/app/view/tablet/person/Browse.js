@@ -46,7 +46,7 @@ Ext.define('App.view.tablet.person.Browse', {
             },
             tpl: '<div class="picture" style="background-image: url({picture})"></div>'
         }, {
-            text: 'Name / Title',
+            text: 'Nombre',
             dataIndex: 'lastname',
             flex: 1,
             cell: {
@@ -57,7 +57,7 @@ Ext.define('App.view.tablet.person.Browse', {
                 '<div class="item-caption">{title}</div>'
             ]
         }, {
-            text: 'Organization',
+            text: 'Puesto',
             dataIndex: 'organization.name',
             flex: 1,
             cell: {
@@ -72,7 +72,7 @@ Ext.define('App.view.tablet.person.Browse', {
                 '</tpl>'
             ]
         }, {
-            text: 'Office',
+            text: 'Gimnacio',
             dataIndex: 'office.name',
             flex: 1,
             cell: {
@@ -86,7 +86,7 @@ Ext.define('App.view.tablet.person.Browse', {
             ]
         }, {
             sortable: false,
-            text: 'Email/Phone',
+            text: 'Email/Telefono',
             flex: 1,
             cell: {
                 encodeHtml: false

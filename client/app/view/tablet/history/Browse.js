@@ -38,7 +38,7 @@ Ext.define('App.view.tablet.history.Browse', {
                 '<div class="picture" style="background-image: url({recipient.picture})"></div>'
             ]
         }, {
-            text: 'Name / Title',
+            text: 'Nombre',
             dataIndex: 'recipient.lastname',
             flex: 1,
             cell: {
@@ -51,7 +51,7 @@ Ext.define('App.view.tablet.history.Browse', {
                 '</tpl>'
             ]
         }, {
-            text: 'Organization',
+            text: 'Puesto',
             dataIndex: 'recipient.organization.name',
             flex: 1,
             cell: {
@@ -63,7 +63,7 @@ Ext.define('App.view.tablet.history.Browse', {
                 '</tpl>'
             ]
         }, {
-            text: 'Office',
+            text: 'Gimnasio',
             dataIndex: 'recipient.office.name',
             flex: 1,
             cell: {

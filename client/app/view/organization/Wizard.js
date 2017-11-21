@@ -15,7 +15,7 @@ Ext.define('App.view.organization.Wizard', {
     },
 
     bind: {
-        title: '{record.phantom? "Add" : "Edit"} Gymnasios'
+        title: '{record.phantom? "Add" : "Edit"} Gimnasio'
     },
 
     screens: [{
@@ -24,12 +24,12 @@ Ext.define('App.view.organization.Wizard', {
         items: [{
             xtype: 'textfield',
             reference: 'name',
-            label: 'Name',
+            label: 'Nombre',
             required: true,
             bind: '{record.name}'
         }, {
             xtype: 'combobox',
-            label: 'Manager',
+            label: 'Entrenador',
             displayField: 'label',
             valueField: 'value',
             queryMode: 'local',

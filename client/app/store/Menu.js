@@ -5,7 +5,7 @@ Ext.define('App.store.Menu', {
     data: [{
         id: 'home',
         xtype: 'home',
-        text: 'Home',
+        text: 'Inicio',
         icon: 'home'
     }, {
         id: 'people',
@@ -15,12 +15,12 @@ Ext.define('App.store.Menu', {
     }, {
         id: 'organizations',
         xtype: 'organizationbrowse',
-        text: 'Gymnasios',
+        text: 'Organizacion',
         icon: 'sitemap'
     }, {
         id: 'offices',
         xtype: 'officebrowse',
-        text: 'Gymnasios',
+        text: 'Gimnasios',
         icon: 'globe'
     }, {
         id: 'history',

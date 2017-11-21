@@ -7,7 +7,7 @@ Ext.define('App.view.tablet.office.BrowseToolbar', {
             xtype: 'combobox',
             valueField: 'value',
             displayField: 'label',
-            placeholder: 'All Country',
+            placeholder: 'Todos los países',
             queryMode: 'local',
             weight: 10,
             bind: {

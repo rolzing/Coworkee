@@ -28,7 +28,7 @@ Ext.define('App.view.tablet.office.Browse', {
         }],
 
         columns: [{
-            text: 'Name',
+            text: 'Nombre',
             dataIndex: 'name',
             flex: 2,
             cell: {
@@ -36,7 +36,7 @@ Ext.define('App.view.tablet.office.Browse', {
             },
             tpl: '<a class="item-title" href="#{url}">{name}</a>'
         }, {
-            text: 'Address',
+            text: 'Direccion',
             dataIndex: 'country',
             flex: 2,
             cell: {
@@ -47,7 +47,7 @@ Ext.define('App.view.tablet.office.Browse', {
                 '<div class="item-caption">{address}<div>'
             ]
         }, {
-            text: 'Headcount',
+            text: 'Trabajadores',
             dataIndex: 'headcount',
             flex: 1,
             cell: {
